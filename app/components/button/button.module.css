@@ -1,0 +1,44 @@
+
+.addToCartButtonContainer {
+    display: flex;
+    height: 44px;
+    width: 160px;
+    border-radius: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    position:absolute;
+    bottom: 67px;
+    border: 2px solid #AD8A85;
+}
+
+/* Tablet Layout */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .addToCartButtonContainer {
+        display: flex;
+        height: 44px;
+        width: 160px;
+        border-radius: 50px;
+        justify-content: space-evenly;
+        align-items: center;
+        position:absolute;
+        bottom: 10px;
+        border: 2px solid #AD8A85;
+    }
+}
+
+@media (min-width: 1023px) { 
+.addToCartButtonContainer {
+    display: flex;
+    height: 44px;
+    width: 160px;
+    border-radius: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    position:absolute;
+    bottom: -20px;
+    border: 2px solid #AD8A85;
+}
+}
+
+
+
