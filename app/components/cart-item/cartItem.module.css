@@ -1,0 +1,47 @@
+.itemContainer {
+    display:flex;
+    width:100%;
+}
+
+.detailsContainer {
+    display:flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+.titleContainer {
+    /* color: #1E1E1E; */
+    color: #260F08;
+    font-size:17px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    width:100%;
+}
+
+.priceContainer {
+    display: flex;
+    width: 70%;
+}
+
+.quantityContainer{
+    width:10%;
+    color: #C73B0F;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.itemPriceContainer {
+    width: 40%;
+    color: #87635A;
+}
+
+.itemTotalContainer {
+    width: 40%;
+    color: #87635A;
+    font-weight: 600;
+}
+
+.deleteContainer {
+    display: flex;
+    align-self: center;
+}
