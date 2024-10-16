@@ -1,0 +1,143 @@
+
+/* Mobile View */
+    .imageContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 280px;
+    }
+
+    .image {
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .selectedImage {
+        border-radius: 8px;
+        width: 100%;
+        border: 2px solid #C73B0F;
+        border-radius: 8px;
+    }
+   
+
+    .categoryText {
+        padding-top: 0;
+        color: #87635A;
+        font-size: 15px;
+    }
+
+    .item {
+        background-color: #FCF8F6;
+        position: relative;
+        width: 95%;
+        margin-right: 10px;
+        padding-left: 15px;
+    }
+
+    .descriptionText {
+        color: #260F08;
+        font-size:17px;
+        font-weight: bold;
+        padding-bottom: 5px;
+    }
+    
+    .priceText {
+        color: #C73B0F;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+    .imageContainer {
+        display: flex;
+        position: relative;
+        width: 250px;
+        height: 300px;
+        justify-content: center;
+    }
+
+    .selectedImageContainer {
+        display: flex;
+        position: relative;
+        width: 250px;
+        height: 240px;
+        justify-content: center;
+        border: 2px solid #C73B0F;
+        border-radius: 8px;
+    }
+    
+    .item {
+        height: 347px;
+        width: 213px;
+        background-color: #FCF8F6;
+        position: relative;
+        margin-right: 24px;
+        margin-bottom: 0;
+    }
+
+    .image {
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .selectedImage {
+        border-radius: 8px;
+        width: 100%;
+        border: 2px solid #C73B0F;
+        border-radius: 8px;
+    }
+
+
+} 
+
+/* Desktop View */
+@media (min-width: 1024px) { 
+.item {
+    height: 347px;
+    background-color: #FCF8F6;
+    position: relative;
+    margin-right: 24px;
+    margin-bottom: 32px;
+}
+
+.categoryText {
+    padding-top: 30px;
+    color: #87635A;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+.imageContainer {
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 240px;
+    justify-content: center;
+}
+
+.selectedImageContainer {
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 240px;
+    justify-content: center;
+    border: 2px solid #C73B0F;
+    border-radius: 8px;
+}
+
+.image {
+    border-radius: 8px;
+}
+
+.selectedImage {
+    border-radius: 8px;
+    width: 100%;
+    border: 2px solid #C73B0F;
+    border-radius: 8px;
+}
+}
+
+
