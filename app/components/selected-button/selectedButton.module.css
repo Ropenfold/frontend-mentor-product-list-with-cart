@@ -1,0 +1,48 @@
+.selectedButtonContainer {
+    display: flex;
+    height: 44px;
+    width: 160px;
+    border-radius: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 235px;
+    position:absolute;
+    background-color: #C73B0F;
+}
+
+.incrementDecrement {
+    background-color: #C73B0F;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 2px;
+}
+
+
+/* Tablet Layout */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .selectedButtonContainer {
+        display: flex;
+        height: 44px;
+        width: 160px;
+        border-radius: 50px;
+        justify-content: space-evenly;
+        align-items: center;
+        top: 248px;
+        position:absolute;
+        background-color: #C73B0F;
+    }
+}
+
+@media (min-width: 1023px) { 
+    .selectedButtonContainer {
+        display: flex;
+        height: 44px;
+        width: 160px;
+        border-radius: 50px;
+        justify-content: space-evenly;
+        align-items: center;
+        top: 215px;
+        position:absolute;
+        background-color: #C73B0F;
+    }
+}
