@@ -29,7 +29,7 @@ const CartItem = ({item: {name, price, qty, thumbnail}}) => {
         </div>
         </div>
         <div className={styles.deleteContainer} onClick={() => deleteItem(name)}>
-          <Image className={styles.selectedImage} src='/assets/images/icon-remove-item.svg' width={20} height={20} alt={name} /></div>
+          <Image className={styles.selectedImage} src='/frontend-mentor-product-list-with-cart/img/icon-remove-item.svg' width={20} height={20} alt={name} /></div>
     </div>
   )
 }

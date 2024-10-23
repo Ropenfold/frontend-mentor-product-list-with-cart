@@ -33,13 +33,13 @@ const SelectedButton = ({item: {name, price}}) => {
     <div className={styles.selectedButtonContainer}>
       <div className={styles.incrementDecrementBorder}>
       <button className={styles.incrementDecrement} onClick={() => decrementQuantity(name)}>
-      <Image src='/assets/images/icon-decrement-quantity.svg' width={10} height={10} alt='add to cart icon'/>
+      <Image src='/frontend-mentor-product-list-with-cart/img/icon-decrement-quantity.svg' width={10} height={10} alt='add to cart icon'/>
       </button>
       </div>
       <span className={styles.itemQuantity}>{getItemQuantity(name)}</span>
       <div className={styles.incrementDecrementBorder}>
       <button className={styles.incrementDecrement} onClick={() => incrementQuantity(name)}>
-      <Image className={styles.incrementDecrement} src='/assets/images/icon-increment-quantity.svg' width={10} height={10} alt='add to cart icon'/>
+      <Image className={styles.incrementDecrement} src='/frontend-mentor-product-list-with-cart/img/icon-increment-quantity.svg' width={10} height={10} alt='add to cart icon'/>
       </button>
       </div>
       </div>
