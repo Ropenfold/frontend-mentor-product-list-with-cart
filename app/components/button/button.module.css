@@ -9,6 +9,16 @@
     position:absolute;
     bottom: 67px;
     border: 2px solid #AD8A85;
+    cursor: pointer; 
+    transition: border-color 0.3s ease;
+}
+
+.addToCartButtonContainer:hover {
+    border: 2px solid #C73B0F;
+}
+
+.buttonText:hover {
+    color: #C73B0F;
 }
 
 /* Tablet Layout */
