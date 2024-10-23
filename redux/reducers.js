@@ -1,6 +1,6 @@
 import { combineReducers } from '@reduxjs/toolkit';
 
-const initialState = { cart: [] };
+const initialState = { cart: [], backgroundAndModal: false };
 
 const selectReducer = (state = initialState, action) => {
   console.log('action', action);
@@ -41,6 +41,17 @@ const selectReducer = (state = initialState, action) => {
                 return item;
               }).filter(item => item.qty > 0),
             };
+            case 'COMPLETE_ORDER':
+              return { 
+                ...state, 
+                backgroundAndModal: true
+              };
+              case 'RESET_CART':
+                return { 
+                  ...state, 
+                  backgroundAndModal: false,
+                  cart: []
+                };
     default:
       return state;
   }
