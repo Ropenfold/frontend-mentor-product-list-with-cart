@@ -10,7 +10,6 @@ import { Modal } from "./components/modal/Modal";
 export default function Home() {
 
   const background = useSelector((state) => state.cartReducer.backgroundAndModal);
-  console.log('background', background);
 
   return (
       <div className={styles.mainContainer}>

@@ -3,7 +3,6 @@ import { combineReducers } from '@reduxjs/toolkit';
 const initialState = { cart: [], backgroundAndModal: false };
 
 const selectReducer = (state = initialState, action) => {
-  console.log('action', action);
   switch (action.type) {
     case 'ADD_TO_CART':
       return { 

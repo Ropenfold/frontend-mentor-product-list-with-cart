@@ -13,7 +13,6 @@ const Button = ({item: {name, price, image: {thumbnail}}}) => {
 
   const handleClick = (name, price, thumbnail) => {
     dispatch(addToCart({name, price, thumbnail, qty: 1 }));
-    console.log('selectedItemsInDispatch', selectedItems)
   };
 
   return (

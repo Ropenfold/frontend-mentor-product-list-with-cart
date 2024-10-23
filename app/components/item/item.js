@@ -14,7 +14,6 @@ let USDollar = new Intl.NumberFormat('en-US', {
 
 const Item = (props) => {
   const selectedItems = useSelector((state) => state.cartReducer.cart);
-  console.log('selectedItem', selectedItems);
 
   const [itemIsSelected, setItemIsSelected] = useState(false);
 
@@ -26,8 +25,6 @@ const Item = (props) => {
   const checkItemIsSelected = (name) => {
     return selectedItems.some(item => item.name === name);
   };
-
-  console.log('itemIsSelected', itemIsSelected);
 
   return (
     <div className={styles.item}>

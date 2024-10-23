@@ -16,7 +16,6 @@ const CartItem = ({item: {name, price, qty, thumbnail}}) => {
 
   const deleteItem = (itemName) => {
       dispatch(deleteCartItem(itemName))
-      console.log('item', itemName);
   }
 
   return (

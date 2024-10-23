@@ -22,12 +22,10 @@ const SelectedButton = ({item: {name, price}}) => {
   
 
   const incrementQuantity = (itemName) => {
-    console.log('increment clicked');
     dispatch(incrementItem(itemName));
   }
 
   const decrementQuantity = (itemName) => {
-    console.log('decrement clicked');
     dispatch(decrementItem(itemName));
   }
   
