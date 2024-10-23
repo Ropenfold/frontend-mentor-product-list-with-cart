@@ -2,7 +2,7 @@
 
 import styles from "./page.module.css";
 import data from "./data/data";
-import Item from "./components/item/Item";
+import Item from "./components/item/item";
 import Cart from "./components/cart/cart";
 import { useSelector } from 'react-redux';
 import { Modal } from "./components/modal/Modal";
