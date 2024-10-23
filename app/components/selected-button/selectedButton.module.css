@@ -13,10 +13,17 @@
 .incrementDecrement {
     background-color: #C73B0F;
     border-radius: 50%;
-    border-color: white;
-    border-width: 2px;
+    border: none;
 }
 
+.incrementDecrementBorder {
+    border-radius: 50%;
+    border:1px solid white;
+}
+
+.itemQuantity {
+    color: white;
+}
 
 /* Tablet Layout */
 @media (min-width: 768px) and (max-width: 1023px) {
