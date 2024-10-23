@@ -29,3 +29,15 @@ export const addToCart = (data) => {
     payload: itemName
   }
  }
+
+ export const completeOrder = () => {
+  return {
+    type: 'COMPLETE_ORDER',
+  }
+ }
+
+ export const resetCart = () => {
+  return {
+    type: 'RESET_CART',
+  }
+ }
