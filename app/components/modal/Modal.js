@@ -27,7 +27,7 @@ const getTotalCost = () => {
 
   return (
     <div className={styles.modalContainer}>
-        <Image src='/assets/images/icon-order-confirmed.svg' width={48} height={48} alt='order confirm tick'/>
+        <Image src='frontend-mentor-product-list-with-cart/assets/images/icon-order-confirmed.svg' width={48} height={48} alt='order confirm tick'/>
         <div className={styles.titleText}>Order Confirmed</div>
         <div className={styles.enjoyText}>We hope you enjoy your food!</div>
         <ModalCart/>

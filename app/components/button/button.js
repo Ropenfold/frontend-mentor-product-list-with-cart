@@ -17,7 +17,7 @@ const Button = ({item: {name, price, image: {thumbnail}}}) => {
 
   return (
     <button className={styles.addToCartButtonContainer} onClick={() => handleClick(name, price, thumbnail)}>
-    <Image src='/assets/images/icon-add-to-cart.svg' width={20} height={20} alt='add to cart icon' />
+    <Image src='frontend-mentor-product-list-with-cart/assets/images/icon-add-to-cart.svg' width={20} height={20} alt='add to cart icon' />
     <span className={styles.buttonText}>Add to Cart</span>
     </button>
   )
