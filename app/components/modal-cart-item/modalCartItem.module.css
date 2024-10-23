@@ -1,0 +1,51 @@
+.itemContainer {
+    display:flex;
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F5EEEC;
+    background-color: #FCF8F6;
+}
+
+.detailsContainer {
+    display:flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+.titleContainer {
+    color: #260F08;
+    font-size:17px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    width:100%;
+}
+
+.priceContainer {
+    display: flex;
+    width: 100%;
+}
+
+.quantityContainer{
+    width:20%;
+    color: #C73B0F;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.itemPriceContainer {
+    width: 100%;
+    color: #87635A;
+}
+
+.itemTotalContainer {
+    color: black;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.thumbnailImage {
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
