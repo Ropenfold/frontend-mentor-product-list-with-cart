@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+![Screenshot 2024-10-23 at 11 53 06](https://github.com/user-attachments/assets/02c96406-a2a9-4379-98a7-c46aad2c4043)
 
-First, run the development server:
+## Background
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This is a challenge completed on Front End Mentor as I'm keen to start building things again from a greenfield perspective
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Solution retrospective
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## What are you most proud of, and what would you do differently next time?
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I'm proud of the cart feature which I used Redux to create, this was a pattern I was keen to reimburse myself in, especially the array functionality to clear and update the cart. On the whole the responsiveness is pretty good, some of the tablet resolutions could be better, I have started to look at designing first in mobile then working my way up to the larger resolutions. I will be using Tailwind going forward and for more challenging projects, I want to start using Typescript.
 
-## Learn More
+## What challenges did you encounter, and how did you overcome them?
 
-To learn more about Next.js, take a look at the following resources:
+Some of the resolutions, particularly Tablet had some issues within them but I find using the chrome tools to change the css on the fly then adding this to the code was especially useful. Some of the cart and redux functionality was a challenge at the start, remembering to return the items, once they had been through the array function was especially tough as I would get errors as the cart had been emptied, but I didn't understand why.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## What specific areas of your project would you like help with?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+None at the moment. I'm happy with the overall outcome.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This can been seen at [this githubpages site](https://ropenfold.github.io/frontend-mentor-product-list-with-cart/)
