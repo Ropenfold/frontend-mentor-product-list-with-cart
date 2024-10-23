@@ -20,7 +20,7 @@ const Item = (props) => {
   useEffect(() => {
     const isSelected = checkItemIsSelected(props.item.name);
     setItemIsSelected(isSelected);
-  }, [selectedItems, props.item.name]);  // Depend on selectedItems and item name
+  }, [selectedItems, props.item.name]); 
 
   const checkItemIsSelected = (name) => {
     return selectedItems.some(item => item.name === name);

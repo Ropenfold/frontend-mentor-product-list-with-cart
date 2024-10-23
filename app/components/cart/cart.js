@@ -37,7 +37,7 @@ const Cart = () => {
       </h2>
       {cart.length === 0 ? (
         <div className={styles.itemList}>
-          <Image src='frontend-mentor-product-list-with-cart/assets/images/illustration-empty-cart.svg' width={128} height={128} alt='empty cart' />
+          <Image src='/assets/images/illustration-empty-cart.svg' width={128} height={128} alt='empty cart' />
           <p className={styles.emptyCartText}>Your added items will appear here</p>
         </div>
       ) : (
@@ -52,7 +52,7 @@ const Cart = () => {
             </div>
           </div>
           <div className={styles.deliveryContainer}>
-            <Image src='frontend-mentor-product-list-with-cart/assets/images/icon-carbon-neutral.svg' width={25} height={30} alt='carbon neutral logo' />
+            <Image src='/assets/images/icon-carbon-neutral.svg' width={25} height={30} alt='carbon neutral logo' />
             <p>This is a <b>carbon-neutral</b> delivery</p>
           </div>
   
